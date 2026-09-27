@@ -8,7 +8,9 @@ Most repositories below are private — they contain client work — so this pag
 
 ---
 
-## AI Shopping Assistant · `essence-chat`
+## AI Shopping Assistant
+
+### 📖 [**essence-chat-demo**](https://github.com/ossov/essence-chat-demo) — readable source
 
 **TypeScript · Vercel serverless · Anthropic API · vanilla JS**
 
@@ -44,6 +46,10 @@ What I worked on:
 Also debugged some things I'd rather have caught earlier: a bug that permanently broke any
 conversation past ~10 exchanges, and product cards that silently stopped appearing mid-chat
 because the client was stripping markers out of the history sent back to the model.
+
+The linked repo is a sanitized copy — the client's brand voice, catalogue and operational
+thresholds are replaced with generic equivalents, and it ships with a small fictional catalogue
+so it runs as-is. The engineering is unchanged.
 
 ---
 
