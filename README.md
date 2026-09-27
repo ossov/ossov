@@ -79,10 +79,4 @@ CSS, without opening devtools.
 `Elem3x` is the original vanilla-JS build; **`Elem3x.ts`** is the TypeScript rewrite — proper
 module structure, a webpack build, and persisted settings via the storage API.
 
----
-
-## Elsewhere
-
-- `bruhtonium-frontend` — JavaScript front-end project
-- `SB_W` — HTML/CSS
 
