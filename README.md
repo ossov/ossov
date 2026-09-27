@@ -5,7 +5,6 @@ extensions. Recent work has been an AI shopping assistant and a storefront rebui
 commercial e-commerce site.
 
 Most repositories below are private — they contain client work — so this page is the summary.
-Happy to walk through any of it.
 
 ---
 
