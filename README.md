@@ -1,8 +1,10 @@
 # Ethan Ossowski
 
-Software development student working mostly in TypeScript, Shopify/Liquid and browser
-extensions. Recent work has been an AI shopping assistant and a storefront rebuild for a
-commercial e-commerce site.
+Software developer — AI assistants, e-commerce, browser tooling. TypeScript, Shopify/Liquid,
+JavaScript.
+
+Recent work has been an AI shopping assistant and a storefront rebuild for a commercial
+e-commerce site.
 
 Most repositories below are private — they contain client work — so this page is the summary.
 
@@ -58,7 +60,7 @@ so it runs as-is. The engineering is unchanged.
 **Shopify · Liquid · CSS · JavaScript**
 
 A Shopify theme built on Dawn, then substantially rebuilt around how these products are
-actually chosen — by how someone feels, not by specification. ~70 commits.
+actually chosen — by how someone feels, not by specification.
 
 - Product page split into distinct bands, with the buy box reworked around size, quantity and
   compare-at pricing behaviour
