@@ -76,14 +76,27 @@ actually chosen — by how someone feels, not by specification.
 
 ---
 
-## Elem3x — Browser Extension
+## Elem3x — Browser Extensions
+
+Two Chrome extensions solving the same problem — editing CSS on a live page without opening
+devtools — by opposite routes.
+
+### 🤖 [**Elem3x**](https://github.com/ossov/Elem3x) — natural language
+
+**JavaScript · Chrome Manifest V3 · Gemini API**
+
+Click an element, describe the change in plain English — "make this bigger and centre it" — and
+an LLM returns the CSS, applied live. It reads the element's computed styles first, so the model
+edits what's actually there instead of guessing.
+
+### 🎛 [**Elem3x.ts**](https://github.com/ossov/Elem3x.ts) — direct GUI
 
 **TypeScript · webpack · Chrome Manifest V3**
 
-A developer tool for visually selecting elements on any page and inspecting or editing their
-CSS, without opening devtools.
+A rebuild that **drops the LLM entirely**. Once the GUI covered the full property set — every
+control pre-filled with the value actually in effect — the model was the slower path to the same
+result. No API key, no round trip, no dependency on a third party.
 
-`Elem3x` is the original vanilla-JS build; **`Elem3x.ts`** is the TypeScript rewrite — proper
-module structure, a webpack build, and persisted settings via the storage API.
+Worth reading together: the second is a deliberate argument against the first.
 
 
